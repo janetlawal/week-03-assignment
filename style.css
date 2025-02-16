@@ -1,9 +1,9 @@
-@media (max-width: 600px) 
+
 *{
     margin: 0;
     padding: 0;
 }
-nav {
+nav{ 
     background: rgb(199, 184, 101);
     padding: 0.3rem;
 }
@@ -22,21 +22,65 @@ nav ul li a{
     padding: 0.5rem 1rem; 
     display: block;
 }
-nav ul li a :hover{
+nav ul li a:hover{
     background-color: darkgray;
     border-radius: 5px;
+    transform: scale(1.1);
 }
 
- body {
+ body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif; color: white; font-size: small;
+    font-family: Arial, Helvetica, sans-serif; color: white;
     }   
-.box-container {
-    background-color: rgb(171, 177, 89);
-} 
-.box {
-    border: 1px; 
-    color: rgb(22, 18, 18);
-    height: 100px;
-    width: 100px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    margin: 150px auto;
+    width: 70%;  
+}
+.text-box {
+    color: white;
+}
+.text-box h2 {
+    font-size: 16px;
+}
+img {
+    max-width: 320px; 
+    float: right;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+button:hover {
+    color: darkgrey;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+footer { 
+    background: rgb(199, 184, 101);
+    padding: 0.3rem;
+}
+footer ul li a{
+    color: white; text-decoration: none; 
+    padding: 0.5rem 1rem; 
+    display: block;
+}
+footer a:hover {
+    color: darkgrey;
+    border-radius: 5px;
+    transform: scale(1.1);
 }
